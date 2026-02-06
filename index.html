@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATRX | Digital Socratic Philosophy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #050505;
+            color: #e5e5e5;
+            font-family: 'Space Grotesk', sans-serif;
+            overflow-x: hidden;
+        }
+        .philosopher-font { font-family: 'Cinzel', serif; }
+        .glow { box-shadow: 0 0 20px rgba(0, 243, 255, 0.2); }
+        .neon-text { color: #00f3ff; text-shadow: 0 0 10px rgba(0, 243, 255, 0.5); }
+        .border-gradient {
+            border: 1px solid;
+            border-image-source: linear-gradient(to right, #00f3ff, #ff00ff);
+            border-image-slice: 1;
+        }
+        .hero-bg {
+            background: radial-gradient(circle at center, #111 0%, #050505 100%);
+        }
+    </style>
+</head>
+<body class="hero-bg">
+
+    <nav class="flex justify-between items-center p-6 max-w-6xl mx-auto">
+        <div class="philosopher-font text-2xl font-bold tracking-widest neon-text">ATRX</div>
+        <div class="space-x-8 hidden md:flex text-sm uppercase tracking-tighter">
+            <a href="#" class="hover:text-cyan-400 transition">Philosophy</a>
+            <a href="#" class="hover:text-cyan-400 transition">Tokenomics</a>
+            <a href="#" class="hover:text-cyan-400 transition">Chart</a>
+        </div>
+        <a href="https://raydium.io" class="border-gradient px-6 py-2 text-xs uppercase font-bold hover:bg-white hover:text-black transition">Buy Now</a>
+    </nav>
+
+    <main class="max-w-4xl mx-auto text-center mt-20 px-4">
+        <div class="relative inline-block mb-8">
+            <div class="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full blur opacity-25"></div>
+            <img src="https://coral-absolute-shrimp-168.mypinata.cloud/ipfs/bafybeicjsykw5luk2olacovzrf6a3cjt6sbohacp4vpf3i6z73afeodfze" 
+                 alt="ATRX Socrates" class="relative rounded-full w-48 h-48 md:w-64 md:h-64 glow object-cover">
+        </div>
+
+        <h1 class="philosopher-font text-5xl md:text-7xl font-bold mb-4 tracking-tight">
+            KNOW <span class="neon-text">THYSELF</span>
+        </h1>
+        <p class="text-gray-400 max-w-lg mx-auto text-lg leading-relaxed mb-10">
+            Ancient wisdom meets digital scarcity. $ATRX is a fixed-supply protocol governed by the Golden Ratio and Socratic logic.
+        </p>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-20 text-center">
+            <div class="p-4 bg-white/5 border border-white/10 rounded-lg">
+                <div class="text-xs text-gray-500 uppercase mb-1">Total Supply</div>
+                <div class="text-xl font-bold">161,803,398</div>
+            </div>
+            <div class="p-4 bg-white/5 border border-white/10 rounded-lg">
+                <div class="text-xs text-gray-500 uppercase mb-1">Liquidity</div>
+                <div class="text-xl font-bold text-green-400">Burned</div>
+            </div>
+            <div class="p-4 bg-white/5 border border-white/10 rounded-lg col-span-2 md:col-span-1">
+                <div class="text-xs text-gray-500 uppercase mb-1">Tax</div>
+                <div class="text-xl font-bold">0 / 0</div>
+            </div>
+        </div>
+
+        <div class="bg-white/5 p-6 rounded-xl border border-white/10 max-w-2xl mx-auto">
+            <p class="text-xs uppercase text-gray-500 mb-2">Contract Address</p>
+            <code class="text-cyan-400 break-all text-sm md:text-base">PASTE_YOUR_MINT_ADDRESS_HERE</code>
+        </div>
+    </main>
+
+    <footer class="mt-40 py-10 border-t border-white/5 text-center">
+        <div class="flex justify-center space-x-6 mb-4">
+            <a href="#" class="text-gray-400 hover:text-white transition">X (Twitter)</a>
+            <a href="#" class="text-gray-400 hover:text-white transition">Telegram</a>
+        </div>
+        <p class="text-[10px] text-gray-600 uppercase tracking-widest">© 2026 ATRX Protocol. The unexamined coin is not worth holding.</p>
+    </footer>
+
+</body>
+</html>
